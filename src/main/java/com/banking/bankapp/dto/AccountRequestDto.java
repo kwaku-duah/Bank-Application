@@ -1,4 +1,4 @@
 package com.banking.bankapp.dto;
 
-public record AccountDto(String accountHolderName, double balance) {
+public record AccountRequestDto(String accountHolderName, double balance) {
 }
